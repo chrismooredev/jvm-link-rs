@@ -1,0 +1,19 @@
+[package]
+name = "jvm-link"
+authors = ["Chris Moore"]
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+links = "jvm"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[build-dependencies]
+walkdir = "2.3.2"
+
+[features]
+default = ["link"]
+link = []
